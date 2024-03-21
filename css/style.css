@@ -73,6 +73,7 @@
   h1 {
     color: #000047;
     font-size: 2em;
+    font-weight: bold;
   }
 
   body {
@@ -106,4 +107,8 @@
 
   form {
     background-color: #000047;
+  }
+
+  input {
+    width: auto;
   }
