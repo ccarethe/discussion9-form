@@ -106,6 +106,7 @@
   }
 
   form {
+    grid-template-columns: 30% 70%;
     background-color: #000047;
   }
 
