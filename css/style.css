@@ -58,19 +58,41 @@
   }
 
   /* Discussion Exercise */
+
+  header > a {
+    position: absolute;
+    top: 5px;
+    left: -1000px;
+    background: white;
+  }
+
+  header > a:focus {
+    left: 5px;
+  }
+
+  h1 {
+    color: #000047;
+    font-size: 2em;
+  }
+
   body {
     font-family: "Saira", sans-serif;
-    background-color: #000047;
+    background-color: #E4DDE9;
     color: #fff;
   }
 
   #name {
     background: #fff;
     border: 1px solid #ccc;
+    color: #000047;
   }
 
   label {
     color: #fff;
+  }
+
+  textarea:focus, #name:focus {
+    background: #D1DFFF;
   }
 
   input[type="submit"] {
@@ -80,4 +102,8 @@
     font-style: italic;
     text-transform: uppercase;
     letter-spacing: 0.1em;
+  }
+
+  form {
+    background-color: #000047;
   }
